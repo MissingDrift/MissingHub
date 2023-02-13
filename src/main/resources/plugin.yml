@@ -1,0 +1,5 @@
+name: Missinghub
+version: '${project.version}'
+main: me.missingdrift.missinghub.Missinghub
+api-version: 1.15
+authors: [ MissingDrift ]

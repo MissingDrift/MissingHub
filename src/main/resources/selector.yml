@@ -1,0 +1,84 @@
+# Server Selector
+SELECTOR:
+  GUI_NAME: "Server Selector"
+  GUI_SLOTS: 27
+  GLASS: true
+  GUI_ITEMS:
+    HCF:
+      NAME: "&cHCF"
+      LORE:
+        - "&7&m----------------------"
+        - "&eHCF Servers &7(Right Click)"
+        - "&7&m----------------------"
+      SLOT: 10
+      MATERIAL: DIAMOND_SWORD
+      GLOW: false
+      TRAVEL: "SubMenu:HCF"
+    Kitmap:
+      NAME: "&cKitmap"
+      LORE:
+        - "&7&m---------------"
+        - "&ePlayers: &7({playercount_Kitmap}/750)"
+        - "&7&m---------------"
+      SLOT: 12
+      MATERIAL: IRON_SWORD
+      GLOW: false
+      TRAVEL: "Queue:KitMap"
+    Practice:
+      NAME: "&cPractice"
+      LORE:
+        - "&7&m---------------"
+        - "&ePlayers: &7({playercount_Practice}/750)"
+        - "&7&m---------------"
+      SLOT: 14
+      MATERIAL: GOLD_SWORD
+      GLOW: false
+      TRAVEL: "Queue:Practice"
+    Bunkers:
+      NAME: "&cBunkers"
+      LORE:
+        - "&7&m---------------"
+        - "&ePlayers: &7({playercount_Bunkers}/750)"
+        - "&7&m---------------"
+      SLOT: 16
+      MATERIAL: ENDER_CHEST
+      GLOW: false
+      TRAVEL: "Queue:Bunkers"
+# Submenus from the selector (DO NOT DELETE THE SUBMENU SECTION, EVEN IF YOU ARE NOT USING SUBMENUS)
+SUBMENU:
+  HCF:
+    GUI_NAME: "HCF"
+    GUI_SLOTS: 27
+    GLASS: true
+    GUI_ITEMS:
+      Duo:
+        NAME: "&cHCF &7(Duo)"
+        LORE:
+          - "&7&m---------------"
+          - "&ePlayers: &7({playercount_Duo}/750)"
+          - "&7&m---------------"
+        SLOT: 11
+        MATERIAL: DIAMOND_SWORD
+        GLOW: false
+        TRAVEL: "Queue:Duo"
+      Mini:
+        NAME: "&cHCF &7(Mini)"
+        LORE:
+          - "&7&m---------------"
+          - "&ePlayers: &7({playercount_Mini}/750)"
+          - "&7&m---------------"
+        SLOT: 15
+        MATERIAL: IRON_SWORD
+        GLOW: false
+        TRAVEL: "Queue:Mini"
+      List:
+        NAME: "&cHCF Servers"
+        LORE:
+          - "&7&m---------------"
+          - "&eDuo: &72 man"
+          - "&eMini: &75 man"
+          - "&7&m---------------"
+        SLOT: 13
+        MATERIAL: PAPER
+        GLOW: false
+        TRAVEL: "Info"

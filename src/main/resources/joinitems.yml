@@ -1,0 +1,40 @@
+INVENTORY:
+  COMPASS:
+    SLOT: 4
+    MATERIAL: COMPASS
+    ID: 0
+    NAME: "&2Navigator &7(Right-Click)"
+    LORE:
+      - "&7Open server navigator"
+  ENDERBUTT:
+    SLOT: 6
+    MATERIAL: ENDER_PEARL
+    ID: 0
+    NAME: "&2Enderbutt &7(Right-Click)"
+    LORE:
+      - "&7Fly with the enderpearl"
+  SETTINGS:
+    SLOT: 0
+    MATERIAL: ENDER_CHEST
+    ID: 0
+    NAME: "&2Settings &7(Right-Click)"
+    LORE:
+      - "&7Open settings"
+  PLAYER_HIDER:
+    ENABLED: true
+    HIDE_MESSAGE: "&cPlayers are hidden for you!"
+    SHOW_MESSAGE: "&aPlayers are visible for you!"
+    HIDED:
+      SLOT: 2
+      MATERIAL: INK_SACK
+      ID: 10
+      NAME: "&cShow players &7(Right-Click)"
+      LORE:
+        - "&7Show all players"
+    SHOWN:
+      SLOT: 2
+      MATERIAL: INK_SACK
+      ID: 8
+      NAME: "&2Hide players &7(Right-Click)"
+      LORE:
+        - "&7Hide all players"
